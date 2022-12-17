@@ -37,7 +37,7 @@ Vejamos a existência de pendência quanto a funcionalidade do formulário, vist
 ## Onde o projeto foi disponibilizado:
 
 - GitHub: https://github.com/grbezerra/ProjetoFinalReprograma/tree/master/src
-- Vercel: https://projeto-final-reprograma-lime.vercel.app/contato
+- Vercel: https://projeto-final-reprograma-lime.vercel.app/
 
 ## O que aprendi com a {REPROGRAMA} nesse período de curso:
 
