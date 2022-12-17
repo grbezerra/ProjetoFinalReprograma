@@ -1,0 +1,27 @@
+.footerContainer {
+  padding: 2rem;
+  background: #686aac;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.footerText {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon {
+    width: 28px;
+    margin-top: 8px;
+}

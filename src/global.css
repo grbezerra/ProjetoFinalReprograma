@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+body {
+  background-image: url(./Img/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+  opacity: 0.8;
+}
+
+.link-topo {
+  text-decoration: none;
+  color: whitesmoke;
+  background-color: purple;
+  padding: 7px;
+  position: fixed;
+  right: 10px;
+  bottom: 20px;
+}
+
+.link-topo:hover {
+  background: steelblue;
+}

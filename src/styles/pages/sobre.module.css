@@ -1,0 +1,61 @@
+.sobreContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobreImagemRecliclagem {
+    width: 15%;    
+}
+
+.fonteInformacao {
+  color: black;
+  font-weight: bolder;
+  margin-left: 60%;
+  align-items: center;
+  
+}
+
+.bioTitle {
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-align: justify;
+  font-weight: bolder;
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    steelblue,
+    rebeccapurple
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.bioContainer {
+  width: 30rem;
+}
+
+.sobreImagem {
+  width: 13%;
+}
+
+.bioText {
+  padding: 2rem;
+  font-size: 1.3rem;
+  color: black;
+  text-align: justify;
+  font-weight: bold;
+}
+
+@media (max-width: 765px) {
+  .sobreContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bioImagem {
+    width: 100%;
+  }
+}

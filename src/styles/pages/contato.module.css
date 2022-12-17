@@ -1,0 +1,129 @@
+.cardContato {
+  font-size: 1.7rem;
+  text-align: justify;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+  background-image: linear-gradient(
+    to bottom,
+    rebeccapurple,
+    steelblue,
+    rebeccapurple
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.sobreFormulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.sobreFormularioImagem {
+    width: 12%;
+    
+}
+
+.homeContainer {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.cardContainer {
+  width: 100%;
+}
+
+.card.Title {
+  padding: 1rem;
+  font-size: 2rem;
+  color: #474a51;
+}
+
+.cardText {
+  font-size: 1.2rem;
+  color: #474a51;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.formContainer {
+  width: 100%;
+}
+
+.form {
+  margin: 0 auto;
+  border-radius: 4px;
+  width: 30%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formInput {
+  width: 80%;
+  padding: 12px 32px;
+  border: 1.5px solid rebeccapurple;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+  background: rgba(200,119,119,.038);
+}
+
+input::placeholder {
+  color: black;
+  font-weight: bolder;
+}
+
+.formTextArea {
+  width: 80%;
+  padding: 12px 32px;
+  border: 2px solid rebeccapurple;
+  border-radius: 4px;
+  resize: vertical;
+  margin-bottom: 1rem;
+  background: rgba(200,119,119,.038);
+}
+
+textarea::placeholder {
+    color: black;
+    font-weight: bolder;
+  }
+
+.formButton {
+  background-color: rgba(70, 131, 180, 0.524);
+  border: 2px solid rebeccapurple;
+  color: black;
+  font-weight: bolder;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  width: 80%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: #686aaca0;
+}
+
+
+@media (max-width: 765px) {
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
